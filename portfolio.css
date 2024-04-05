@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header {
+    background-image: url('/RESOURCES/J4x.gif'); /* Ruta a tu GIF de cabecera */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajusta la altura del contenedor según sea necesario */
+    text-align: center;
+    color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-contenedor {
+    text-align: center;
+    margin-top: 50px; /* Margen superior ajustado */
+    margin-bottom: 20px; /* Margen inferior ajustado */
+}
+
+.titulo-animado {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; /* Para centrar el título */
+    font-size: 36px; /* Tamaño de fuente ajustable */
+    color: white; /* Color del texto en blanco */
+    border-right: .05em solid orange; /* Barra del cursor más fina */
+    animation: typing 2s steps(40, end), blink-caret .75s step-end 2s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Efecto intermitente del cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
