@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
     margin: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -83,6 +83,6 @@ body {
 }
 
 .presentacion {
-    color: #f2f2f2;
+    color: black;
     flex: 1; /* La columna del texto ocupa todo el espacio restante */
 }
