@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-    background-image: url('J4x.gif'); /* Ruta a tu GIF de cabecera */
+    background-image: url('resources/J4x.gif'); /* Ruta a tu GIF de cabecera */
     background-size: cover;
     background-position: center;
     height: 200px; /* Ajusta la altura del contenedor según sea necesario */
