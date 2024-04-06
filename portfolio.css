@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     margin: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -62,4 +63,26 @@ body {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.fotoperfil {
+    flex: 0 0 40%; /* Define el ancho de la columna de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.fotoperfil img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+.presentacion {
+    color: #f2f2f2;
+    flex: 1; /* La columna del texto ocupa todo el espacio restante */
 }
