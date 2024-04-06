@@ -80,6 +80,7 @@ body {
 .fotoperfil img {
     max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
+    border-radius: 5%;
 }
 
 .presentacion {
